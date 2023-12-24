@@ -1,0 +1,36 @@
+#container{
+    height:400px;
+    display: flex;
+    align-items: flex-end;
+}
+    
+body{
+    background-color:rgb(253, 253, 253);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+button{
+    top:50%;
+    min-height:35px; 
+    min-width: 120px;
+    margin: 60px;
+    background-color:rgb(255, 0, 111);
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(26, 56, 248);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#4cbbe4;
+    transition: 0.5s;
+}
+
+.bar{
+    width: 15px;
+    background-color: rgb(63, 235, 166);
+    margin: 2px;
+}
