@@ -1,7 +1,9 @@
 #container{
     height:400px;
     display: flex;
+    justify-content: center;
     align-items: flex-end;
+    margin: 2rem;
 }
     
 body{
@@ -15,7 +17,7 @@ button{
     top:50%;
     min-height:35px; 
     min-width: 120px;
-    margin: 60px;
+    margin: 1rem;
     background-color:rgb(255, 0, 111);
     color: #fff;
     border:none;
@@ -31,6 +33,14 @@ button:hover{
 
 .bar{
     width: 15px;
-    background-color: rgb(63, 235, 166);
+    background-color: rgb(63, 161, 235);
     margin: 2px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+    gap: 4rem;
 }

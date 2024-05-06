@@ -8,16 +8,21 @@
 </head>
 <body>
     <h1>Sorting Visualizer</h1>
-    <div id="container"></div>
-    <hr>
-    <div>
-        <button onClick="init()">Initialize</button><br>
-        <button onClick="playBubbleSort()">Bubble Sort</button>
-        <button onClick="playInsertionSort()">Insertion Sort</button>
-        <button onClick="playSelectionSort()">Selection Sort</button>
-        <button onClick="playMergeSort()">Merge Sort</button>
-        <button onClick="playQuickSort()">Quick Sort</button>
-    </div>
+    <div class="main-box" id="container"></div>
+
+        <div class="start">
+            <button onClick="init()">Initialize</button><br>
+        </div>
+        <div class="sort" style="left: 0;">
+            <button onClick="playBubbleSort()">Bubble Sort</button>
+            <button onClick="playInsertionSort()">Insertion Sort</button>
+        </div>
+        <div class="sort" style="right: 0;">
+            <button onClick="playSelectionSort()">Selection Sort</button>
+            <button onClick="playQuickSort()">Quick Sort</button>
+        </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
